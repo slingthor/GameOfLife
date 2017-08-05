@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		D320D31B1F3510F20022A341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D320D31A1F3510F20022A341 /* main.m */; };
 		D320D31E1F3510F20022A341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D320D31D1F3510F20022A341 /* AppDelegate.m */; };
-		D320D3211F3510F20022A341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D320D3201F3510F20022A341 /* ViewController.m */; };
+		D320D3211F3510F20022A341 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D320D3201F3510F20022A341 /* MenuViewController.m */; };
 		D320D3241F3510F20022A341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320D3221F3510F20022A341 /* Main.storyboard */; };
 		D320D3261F3510F20022A341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D320D3251F3510F20022A341 /* Assets.xcassets */; };
 		D320D3291F3510F20022A341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320D3271F3510F20022A341 /* LaunchScreen.storyboard */; };
 		D320D3341F3510F30022A341 /* GameOfLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D320D3331F3510F30022A341 /* GameOfLifeTests.m */; };
+		D34880321F351E8F002E154D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34880311F351E8F002E154D /* GameViewController.m */; };
+		D34880351F351F7D002E154D /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = D34880341F351F7D002E154D /* Settings.m */; };
+		D39EF7C51F352E54009AA97E /* GameOfLife.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EF7C41F352E54009AA97E /* GameOfLife.m */; };
+		D39EF7C91F36129A009AA97E /* GameOfLife.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EF7C41F352E54009AA97E /* GameOfLife.m */; };
+		D39EF7CB1F361929009AA97E /* testGameOfLife.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EF7CA1F361929009AA97E /* testGameOfLife.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +36,8 @@
 		D320D31A1F3510F20022A341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D320D31C1F3510F20022A341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D320D31D1F3510F20022A341 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D320D31F1F3510F20022A341 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D320D3201F3510F20022A341 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D320D31F1F3510F20022A341 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		D320D3201F3510F20022A341 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		D320D3231F3510F20022A341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D320D3251F3510F20022A341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D320D3281F3510F20022A341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,13 @@
 		D320D32F1F3510F30022A341 /* GameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320D3331F3510F30022A341 /* GameOfLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfLifeTests.m; sourceTree = "<group>"; };
 		D320D3351F3510F30022A341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34880301F351E8F002E154D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D34880311F351E8F002E154D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D34880331F351F7D002E154D /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		D34880341F351F7D002E154D /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		D39EF7C31F352E54009AA97E /* GameOfLife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOfLife.h; sourceTree = "<group>"; };
+		D39EF7C41F352E54009AA97E /* GameOfLife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOfLife.m; sourceTree = "<group>"; };
+		D39EF7CA1F361929009AA97E /* testGameOfLife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testGameOfLife.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +95,19 @@
 			children = (
 				D320D31C1F3510F20022A341 /* AppDelegate.h */,
 				D320D31D1F3510F20022A341 /* AppDelegate.m */,
-				D320D31F1F3510F20022A341 /* ViewController.h */,
-				D320D3201F3510F20022A341 /* ViewController.m */,
+				D320D31F1F3510F20022A341 /* MenuViewController.h */,
+				D320D3201F3510F20022A341 /* MenuViewController.m */,
 				D320D3221F3510F20022A341 /* Main.storyboard */,
 				D320D3251F3510F20022A341 /* Assets.xcassets */,
 				D320D3271F3510F20022A341 /* LaunchScreen.storyboard */,
 				D320D32A1F3510F20022A341 /* Info.plist */,
 				D320D3191F3510F20022A341 /* Supporting Files */,
+				D34880301F351E8F002E154D /* GameViewController.h */,
+				D34880311F351E8F002E154D /* GameViewController.m */,
+				D34880331F351F7D002E154D /* Settings.h */,
+				D34880341F351F7D002E154D /* Settings.m */,
+				D39EF7C31F352E54009AA97E /* GameOfLife.h */,
+				D39EF7C41F352E54009AA97E /* GameOfLife.m */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -107,6 +125,7 @@
 			children = (
 				D320D3331F3510F30022A341 /* GameOfLifeTests.m */,
 				D320D3351F3510F30022A341 /* Info.plist */,
+				D39EF7CA1F361929009AA97E /* testGameOfLife.m */,
 			);
 			path = GameOfLifeTests;
 			sourceTree = "<group>";
@@ -160,7 +179,7 @@
 				TargetAttributes = {
 					D320D3151F3510F20022A341 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8UJHUQ32TC;
+						DevelopmentTeam = 8VB4ML6TL3;
 						ProvisioningStyle = Automatic;
 					};
 					D320D32E1F3510F30022A341 = {
@@ -215,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D320D3211F3510F20022A341 /* ViewController.m in Sources */,
+				D34880321F351E8F002E154D /* GameViewController.m in Sources */,
+				D320D3211F3510F20022A341 /* MenuViewController.m in Sources */,
+				D34880351F351F7D002E154D /* Settings.m in Sources */,
 				D320D31E1F3510F20022A341 /* AppDelegate.m in Sources */,
+				D39EF7C51F352E54009AA97E /* GameOfLife.m in Sources */,
 				D320D31B1F3510F20022A341 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39EF7C91F36129A009AA97E /* GameOfLife.m in Sources */,
+				D39EF7CB1F361929009AA97E /* testGameOfLife.m in Sources */,
 				D320D3341F3510F30022A341 /* GameOfLifeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,10 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UJHUQ32TC;
+				DEVELOPMENT_TEAM = 8VB4ML6TL3;
 				INFOPLIST_FILE = GameOfLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GameOfLife;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slingthor.gameoflife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -365,10 +389,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UJHUQ32TC;
+				DEVELOPMENT_TEAM = 8VB4ML6TL3;
 				INFOPLIST_FILE = GameOfLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GameOfLife;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slingthor.gameoflife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +442,7 @@
 				D320D33A1F3510F30022A341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D320D33B1F3510F30022A341 /* Build configuration list for PBXNativeTarget "GameOfLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				D320D33D1F3510F30022A341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
